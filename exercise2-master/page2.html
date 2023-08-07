@@ -1,0 +1,66 @@
+<html>
+<head>
+	<title>Exercise2</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,500,0,0" />
+</head>
+<body>
+      <div class="navbar navbar-fixed-top container-fluid" id="navbar">
+            <div class="navbar-header">
+                  <button type="button" class="navbar-toggle navbar-default" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand">exercise2</a>
+            </div>
+            <a type="button" class="btn btn-back" href="page1.html">Back</a>
+      </div>
+      <div class="container">
+            <div class="form">
+                  <div class="header">
+                        <h3>Form</h3>
+                  </div>
+                  <form action="">
+                        <label for="nama">Nama</label><br>
+                        <input class="input" type="text" name="" placeholder="Nama Anda" id="nama"><br><br>
+                        <label for="tanggal">Tanggal Lahir</label><br>
+                        <input class="input" type="date" id="tanggal" name="tanggal"><br><br>
+                        <label for="tribun">Pilih Tribun</label> <br>
+                              <select class="input" name="tribun" id="tribun">
+                                    <option value="2020">P1</option>
+                                    <option value="2021">P2</option>
+                                    <option value="2022">P3</option>
+                                    <option value="2023">P4</option>
+                              </select>
+                              <br><br>
+                        
+                        <label>Pemilihan Paket</label><br>
+      
+                        <input type="radio" name="paket" id="day1" value="day1">
+                        <label for="programing">Day-1 only</label><br>
+                        <input type="radio" name="paket" id="day2" value="day2">
+                        <label for="desain">Day-2 only</label><br>
+                        <input type="radio" name="paket" id="day3" value="day3">
+                        <label for="jaringan">Day-3 only</label><br>
+                        <input type="radio" name="paket" id="vip" value="vip">
+                        <label for="data">VIP 3days</label><br><br>
+                        <label for="">Alamat</label><br>
+                        <textarea name="alamat" placeholder="Tulis alamat disini" id="alamat" cols="30" rows="10"></textarea><br><br>
+                        
+                        <button type="submit" class="btn btn-send" onclick="kirimData()">Kirim</button>
+                  </form>
+            </div>
+      </div>
+
+      <script src="script.js"></script>
+</body>
+</html>
